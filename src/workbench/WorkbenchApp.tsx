@@ -482,7 +482,7 @@ export default function WorkbenchApp() {
     <div className="wb-app">
       <style>{glyphCSS}</style>
       <header className="wb-header">
-        <a href="/" className="wb-home" aria-label="返回数学探索室">
+        <a href="./index.html" className="wb-home" aria-label="返回数学探索室">
           <ArrowLeft size={18} />
         </a>
         <div className="wb-brand">
@@ -490,8 +490,8 @@ export default function WorkbenchApp() {
           <span>Mathroom · 装置搭建</span>
         </div>
         <div className="wb-header-links">
-          <a href="/mechanics-objects.html">物体图鉴</a>
-          <a href="/mechanics-demo.html">演化示例</a>
+          <a href="./mechanics-objects.html">物体图鉴</a>
+          <a href="./mechanics-demo.html">演化示例</a>
         </div>
         <button
           className="theme-toggle"
