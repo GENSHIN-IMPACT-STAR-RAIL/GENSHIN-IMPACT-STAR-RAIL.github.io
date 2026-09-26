@@ -646,7 +646,7 @@ export default function App() {
           <div className="sidebar-brand">
             <a
               className="brand"
-              href="/"
+              href="./index.html"
               aria-label="返回数学探索室首页"
               title="返回数学探索室首页"
             >
